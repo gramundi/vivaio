@@ -3,9 +3,9 @@
     <metadata>
     <!-- Required elements-->
     <id>parexel-azure-templates</id>
-    <version>$version$</version>
+    <version>1.0</version>
     <description>Collection of Azure ARM templates to use for Parexel solutions</description>
-    <authors>Parexel</authors>
+    <authors>Giovanni</authors>
 
     <!-- Optional elements -->
     <!-- ... -->
