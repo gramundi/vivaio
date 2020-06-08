@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+    <!-- Required elements-->
+    <id>parexel-azure-templates</id>
+    <version>$version$</version>
+    <description>Collection of Azure ARM templates to use for Parexel solutions</description>
+    <authors>Parexel</authors>
+
+    <!-- Optional elements -->
+    <!-- ... -->
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+      <file src="**\*.php" target="" />
+      <file src="**\*.json" target="" />
+      <file src="**\*.ps1" target="" />
+	  <file src="**\*.xml" target="" />
+      <file src="**\*.sh" target="" />
+      <file src="**\*.pfx" target="" />
+    </files>
+</package>
