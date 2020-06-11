@@ -7,7 +7,7 @@
  *	Ramundi Mattia <http://www.mattiaramundi.it>
  */
 ?>
-<?php  require dirname(__FILE__).'/includes/header.php'; ?>
+<?php  //require dirname(__FILE__).'/includes/header.php'; ?>
 
 
 <div class="sin">
@@ -24,7 +24,7 @@
 
  <h4>DISPLAY CONTENT <h4>
  <?php 
-  echo "<table style='border: solid 1px black;'>";
+  /*echo "<table style='border: solid 1px black;'>";
   echo "<tr class=rowel><th>Nome Pianta</th><th>Descrizione</th><th>Actions</th></tr>";
   
   $stmt = $conn->prepare("SELECT nome,descrizione FROM piante");
@@ -41,7 +41,7 @@
   }
   $conn = null;
 echo "</table>";
- ?>
+*/ ?>
 </div>
 <div class="des">
 
